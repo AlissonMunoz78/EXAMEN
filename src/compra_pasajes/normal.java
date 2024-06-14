@@ -45,12 +45,10 @@ public class normal extends servicio{
         }
         else if (asiento.equals("pasillo")){
             costo += 20;
-            else if (asiento.equals("al final")){
+        }else if (asiento.equals("al final")){
                 costo += 15;
-            }
-            else if (asiento.equals("adelante")){
+        } else if (asiento.equals("adelante")){
                 costo += 10;
-            }
         }
         if (maletaExt){
             costo += 5;

@@ -49,7 +49,9 @@ public class tickets {
     }
 
     public double calcularCosto() {
-        return 0.0;
+        double precioBase = super.getClass();
+        double costoTotal = precioBase * costo;
+        return costoTotal;
     }
 
     public void imprimirDatos(){
